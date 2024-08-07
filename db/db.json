@@ -1,0 +1,36 @@
+{
+  "productList": [
+    {
+      "id": 1,
+      "name": "one plus",
+      "price": 12345,
+      "color": "green",
+      "type": "android",
+      "photo": "https://m.media-amazon.com/images/I/717JX3femML._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+        "id": 2,
+        "name": "I phone",
+        "price": 50000,
+        "color": "red",
+        "type": "Apple",
+        "photo": "https://cdn1.smartprix.com/rx-i5n1dTTOB-w420-h420/apple-iphone-16-pro.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Nike",
+        "price": 500,
+        "color": "White",
+        "type": "Shoes",
+        "photo": "https://rukminim2.flixcart.com/image/850/1000/ksqeky80/shoe/0/o/y/8-line-shoes-fashion-white-original-imag687guzw86huz.jpeg?q=90&crop=false"
+      },
+      {
+        "id": 4,
+        "name": "Ear Buds",
+        "price": 1000,
+        "color": "black",
+        "type": "Headphone",
+        "photo": "https://zebronics.com/cdn/shop/products/Zeb-Soundbomb5-pic12.jpg?v=1692264544&width=1200"
+      }
+  ]
+}
