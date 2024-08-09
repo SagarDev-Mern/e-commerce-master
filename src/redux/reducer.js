@@ -8,8 +8,9 @@ const cartReducer = (initialState=[], action)=>{
         return [...initialState ,action.data]
 
         case REMOVE_FROM_CART:
-            console.log("REMOVE_FROM_CART", action.data);
-            return initialState.slice(0, -1);
+            console.log("REMOVE_FROM_CART id = ", action.data);
+            const data = initialState.filter((ele)=> ele.id !== action.data)
+            return [...data]
 
         case EMPTY_CART :
          console.log("EMPTY_CART", action.data)

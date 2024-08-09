@@ -39,8 +39,8 @@
 }
 
 .headers {
-  background-color: rgb(233, 224, 224);
-  height: 40px;
+  background-color: rgb(206, 237, 119);
+  height: 60px;
   display: flex;
   justify-content: flex-end;
 }
@@ -50,6 +50,27 @@
     margin-top: 2px;
     margin-right: 19px;
     z-index: 5;
+}
+
+.logo {
+  display: flex;
+  float: inline-start;
+  margin: 14px;
+  margin-right: 91%;
+  background-color: rgb(206, 237, 119);
+  padding: 0px;
+  flex: auto;
+}
+
+.product-item {
+  border: 1px solid #ccc;
+  margin: 20px;
+  padding: 10px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .img {
