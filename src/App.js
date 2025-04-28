@@ -12,6 +12,7 @@ function App() {
         <Route path="/" element={<Main />} />
       </Routes>
       <Routes>
+        {/* this is a cart page */}
         <Route exact path="/cart" element={<Cart />} />
       </Routes>
     </div>
